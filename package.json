@@ -1,0 +1,19 @@
+{
+  "name": "jira-transit",
+  "version": "1.0.0",
+  "description": "消息转发程序",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "nohup node index.js &"
+  },
+  "author": "JimmyQin",
+  "license": "GNU General Public License v3.0",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "moment": "^2.27.0",
+    "request": "^2.88.2",
+    "urlencode": "^1.1.0"
+  }
+}
